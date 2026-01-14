@@ -1,5 +1,6 @@
 function setBase(file) {
-  document.getElementById("base").src = "assets/" + file;
+document.getElementById("base").src = "./assets/" + file;
+
 }
 
 function setHair(file) {
