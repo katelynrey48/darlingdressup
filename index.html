@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dress Up Game</title>
+  
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="game">
+
+    <div class="character">
+      <img src="assets/base.png" id="base">
+      <img id="hair" style="display:none;">
+
+    </div>
+    <div class="controls">
+      <h3>Outfits</h3>
+      <button onclick="setBase('outfit1.png')">Outfit 1</button>
+      <button onclick="setBase('outfit2.png')">Outfit 2</button>
+      <button onclick="setBase('base.png')">Remove Outfit</button>
+      
+      <h3>Hair</h3>
+     <button onclick="setHair('hair1.png')">Hair 1</button>
+    <button onclick="setHair('hair2.png')">Hair 2</button>
+    <button onclick="removeHair()">Remove Hair</button>
+      
+    </div><div class="frame">
+<img src="assets/frame.PNG" height="550">
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
