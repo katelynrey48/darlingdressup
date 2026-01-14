@@ -1,70 +1,58 @@
  body {
-      background: #adadad;
-      font-family: Georgia, serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+  background: #adadad;
+  font-family: Georgia, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    .game {
-      display: flex;
-      gap: 30px;
-    }
+.game {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 
-    .character {
-      position: relative;
-      width: 400px;
-      height: 500px;
-      
-      background: #fff;
-    }
+.character {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background: #fff;
+}
 
-    .character img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-    }
+.character img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
 
-    .controls {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-    button {
-      padding: 10px;
-      background: #292929;
-      border-radius: 5px;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 14px;
-      transition: transform 0.2s, filter 0.2s
-      
-    }
+button {
+  padding: 10px;
+  background: #292929;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.2s, filter 0.2s;
+}
 
-    button:hover {
-      background: #747474;
-      transform: scale(1.05);
-      
-    }
-
-    button span {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   transition: color 0.2s ease; 
-   
-  }
-
+button:hover {
+  background: #747474;
+  transform: scale(1.05);
+}
 
 .frame {
   position: relative;
-  right:593px;
-  top:-25px;
+  right: 593px;
+  top: -25px;
 }
