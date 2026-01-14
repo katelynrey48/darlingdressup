@@ -1,11 +1,10 @@
 function setBase(file) {
-document.getElementById("base").src = "./assets/" + file;
-
+  document.getElementById("base").src = "./assets/" + file;
 }
 
 function setHair(file) {
   const hair = document.getElementById("hair");
-  hair.src = "assets/" + file;
+  hair.src = "./assets/" + file;
   hair.style.display = "block";
 }
 
