@@ -3,35 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Dress Up Game</title>
-  
-<link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="game">
+<div class="game">
 
-    <div class="character">
-      <img src="./assets/base.PNG" id="base">
-      <img id="hair" style="display:none;">
-
-    </div>
-    <div class="controls">
-      <h3>Outfits</h3>
-      <button onclick="setBase('outfit1.PNG')">Outfit 1</button>
-      <button onclick="setBase('outfit2.PNG')">Outfit 2</button>
-      <button onclick="setBase('base.PNG')">Remove Outfit</button>
-      
-      <h3>Hair</h3>
-     <button onclick="setHair('hair1.PNG')">Hair 1</button>
-    <button onclick="setHair('hair2.PNG')">Hair 2</button>
-    <button onclick="removeHair()">Remove Hair</button>
-      
-    </div><div class="frame">
-<img src="assets./frame.PNG" height="550">
-</div>
+  <div class="character">
+    <img src="./assets/base.PNG" id="base">
+    <img id="hair" style="display:none;">
   </div>
 
-  <script src="script.js"></script>
+  <div class="controls">
+    <h3>Outfits</h3>
+    <button onclick="setBase('outfit1.PNG')">Outfit 1</button>
+    <button onclick="setBase('outfit2.PNG')">Outfit 2</button>
+    <button onclick="setBase('base.PNG')">Remove Outfit</button>
+
+    <h3>Hair</h3>
+    <button onclick="setHair('hair1.PNG')">Hair 1</button>
+    <button onclick="setHair('hair2.PNG')">Hair 2</button>
+    <button onclick="removeHair()">Remove Hair</button>
+  </div>
+
+  <div class="frame">
+    <img src="./assets/frame.PNG" height="550">
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
