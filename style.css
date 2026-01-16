@@ -14,6 +14,8 @@
 }
 
 .character {
+ border-style: solid; 
+  border-color: black;
   position: relative;
   width: 400px;
   height: 500px;
@@ -51,8 +53,4 @@ button:hover {
   transform: scale(1.05);
 }
 
-.frame {
-  position: relative;
-  right: 593px;
-  top: -70px;
-}
+
